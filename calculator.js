@@ -25,10 +25,10 @@ app.get("/bmicalculator", function(req, res){
 
 app.post("/bmicalculator", function(req, res){
 
-    var weight = Number(req.body.w);
-    var height = Number(req.body.h);
+    var weight = parseFloat(req.body.w);
+    var height = parseFloat(req.body.h);
 
-    var n =weight/height * 2;
+    var n =weight / (height * height);
 
     res.send("Your BMI is " + n);
 })
