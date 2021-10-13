@@ -1,0 +1,22 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "My first calculator",
+  "main": "calculator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LukaKoporec/calculator.git"
+  },
+  "author": "Luka Koporec",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LukaKoporec/calculator/issues"
+  },
+  "homepage": "https://github.com/LukaKoporec/calculator#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
